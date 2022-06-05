@@ -1,0 +1,45 @@
+
+.img-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.img-wrap img {
+  height: 100%;
+  max-width: 100%;
+  width: auto;
+}
+
+.card-product-grid {
+  margin-bottom: 20px;
+}
+
+.card-product-grid .img-wrap {
+  border-radius: 0.2rem 0.2rem 0 0;
+  height: 220px;
+  width: auto;
+}
+
+.card-product-grid .info-wrap {
+  overflow: hidden;
+  padding: 18px 20px;
+}
+
+.card-product-grid .bottom-wrap {
+  padding: 18px;
+  border-top: 1px solid white;
+}
+
+.card-product-grid .topbar a {
+  color: gray;
+}
+
+.card-product-grid .topbar a:hover {
+  color: blue;
+}
+
+.card-product-grid .fix-height {
+  height: 80px;
+  overflow: hidden;
+}
+
